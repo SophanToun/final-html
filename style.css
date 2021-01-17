@@ -1,0 +1,105 @@
+.nav{
+    background: teal;
+    color: #fff;
+    padding:80px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+}
+.form-container {
+    width: 50%;
+    background:grey;
+    padding: 15px;
+    margin-left: auto;
+}
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 7px 0;
+}
+input[type=text] {
+    width: 99%;
+
+}
+input[type=password] {
+    width: 49%;
+}
+
+input[type=reset],
+input[type=submit]{
+    width: 49%;
+    border:none;
+    border-radius: 7px;
+    outline:none;
+    cursor: pointer;
+}
+.gender{
+    text-align: center;
+ 
+}
+input[type=radio]{
+    margin-left: 10px;
+}
+@media(max-width:900px) {
+    input[type=password]{
+        width: 100%;
+    }
+    input[type=reset],
+    input[type=submit]{
+        width: 100%;
+    }
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+table {
+    border: collapse;
+    width: 100%;
+    font-family: sans-serif;
+
+}
+tr,
+td,
+th{
+    border-bottom: 1px solid indigo;
+    padding: 10Px;
+}
+th{
+    text-transform: uppercase;
+    background: teal;
+    color: #fff;
+    text-align: left;
+}
+tbody tr:hover{                       
+    background: red;
+    cursor: pointer;
+}
+tbody tr:nth-child(even) {
+    background:#fff;
+}
+caption{
+    background:yellow;
+    padding: 10px;
+    color: teal;
+    text-transform: uppercase;
+}
+thead{
+    background:teal;
+    color: #fff;
+}
+tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+tbody tr:nth-child(even) {
+    background: yellow;
+}
+footer {
+    background: purple;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
